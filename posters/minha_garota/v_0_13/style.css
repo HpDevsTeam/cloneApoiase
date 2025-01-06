@@ -1,0 +1,356 @@
+* {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+}
+
+.flex_top {
+    display: flex;
+    align-items: center;
+    padding: 10px 0px;
+    background-color: rgba(250, 235, 215, 0.274);
+}
+
+.logo {
+    margin: auto;
+}
+
+.logo img {
+    width: 175px;
+}
+
+.navega_top {
+    margin: auto;
+}
+
+.navega_top ul {
+    list-style: none;
+}
+
+.navega_top li {
+    float: left;
+}
+
+.navega_top a {
+    color: rgba(0, 0, 0, 0.699);
+    text-decoration: none;
+    display: block;
+    padding: 16px 18px;
+}
+
+.navega_top a:hover {
+    border-radius: 10px;
+    background-color: azure;
+}
+
+.menu_mobi{
+    margin: auto;
+    display: none;
+}
+
+.menu_mobi img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.menu_mobi p{
+    padding: 20px 0px;
+}
+
+.dropdown_mobi{
+    color: rgba(0, 0, 0, 0.747);
+    position: absolute;
+    z-index: 1;
+    background-color: yellow;
+    right: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    display: none;
+}
+
+.drop_borda{
+    border-top: 2px black solid;
+}
+
+.flex_drop a{
+    color: rgba(0, 0, 0, 0.849);
+    display: block;
+    padding: 10px;
+    margin: 20px 0px;
+    border: 2px red solid;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.banner {
+    position: relative;
+}
+
+.banner img {
+    width: 100%;
+    height: 300px;
+}
+
+.sobrepor_image {
+    position: absolute;
+    top: 70%;
+    right: 70%;
+}
+
+.sobrepor_image img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.sobrepor {
+    position: absolute;
+    top: 50%;
+    right: 40%;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+.navega_dois {
+    border-bottom: 2px rgba(0, 0, 0, 0.171) solid;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.navega_dois ul {
+    list-style: none;
+    overflow: hidden;
+}
+
+.navega_dois li {
+    display: inline-block;
+}
+
+.navega_dois a {
+    color: rgba(0, 0, 0, 0.699);
+    text-decoration: none;
+    display: block;
+    padding: 16px 18px;
+}
+
+.navega_dois a:hover {
+    background-color: azure;
+    border-radius: 10px;
+}
+
+.ativado{
+    border-bottom: 2px red solid;
+}
+
+.primeira_secao{
+    margin: 30px auto;
+    padding: 20px 0px;
+    width: 800px;
+    height: auto;
+    background-color: yellow;
+}
+
+.segunda_secao{
+    height: auto;
+    margin: auto;
+    padding: 20px 0px;
+    width: 800px;
+    background-color: yellowgreen;
+}
+
+.titulo_principal {
+    text-align: center;
+    padding: 30px 0px;
+}
+
+.titulo_principal p{
+    margin: 20px;
+}
+
+/*Conteudo do meio start*/
+
+.img {
+    text-align: center;
+}
+
+.textos_ajust{
+    line-height: 30px;
+}
+
+.textos_ajust ul{
+     list-style-position: inside;
+     text-align: center;
+     margin: 10px;
+     padding: 20px 0px;
+}
+
+.textos_ajust p{
+    margin: 20px;
+    padding: 20px 0px;
+}
+
+.textos_ajust a{ 
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    text-shadow: 1px 1px 2px black;
+    margin: 20px;
+    color: rgba(255, 0, 0, 0.993);
+}
+
+.textos_ajust a:hover{
+    color: rgba(255, 0, 0, 0.596);
+}
+
+.textos_ajust a:active{
+    color: white;
+}
+
+.textos_ajust h3{
+    text-align: center;
+}
+
+.textos_ajust2{
+    text-align: center;
+}
+
+.textos_ajust2 p{
+    margin: 20px 0px;
+}
+
+.textos_ajust2 a{
+    text-decoration: none;
+    text-shadow: 1px 1px 2px black;
+    margin: 20px;
+    color: rgba(255, 0, 0, 0.993);
+}
+
+.textos_ajust2 a:hover{
+    color: rgba(255, 0, 0, 0.596);
+}
+
+.textos_ajust2 a:active{
+    color: white;
+}
+
+.imgens{
+    width: 700px;
+    margin: auto;
+}
+
+.imagens{
+    text-align: center;
+}
+
+.imagens h2,p{
+    margin: 30px 0px;
+}
+
+.imgens img{
+    margin: 10px 0px;
+}
+
+/*Conteudo do meio end*/
+
+.roodape{
+    background-color: gray;
+}
+
+.logo_bottom{
+    text-align: center;
+    padding: 50px 0px;
+}
+
+.logo_bottom img{
+    width: 175px;
+}
+
+.flex_bottom{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0px;
+}
+
+.flex_bottom h4{
+    margin: 20px 0px;
+}
+
+.flex_bottom p{
+    margin: 10px 0px;
+    color: rgba(255, 255, 255, 0.788);
+}
+
+.redesDois{
+    margin: 30px 0px;
+}
+
+.redesDois img{
+    width: 30px;
+    margin: 0px 5px;
+}
+
+.copy{
+    color: rgba(49, 43, 43, 0.582);
+    text-align: center;
+    padding: 50px 0px;
+    margin: 0px 20px;
+}
+
+@media screen and (max-width: 1000px) {
+    .navega_top {
+        display: none;
+        margin: auto;
+    }
+
+    .banner {
+        position: initial;
+    }    
+
+    .banner img {
+        width: 100%;
+        height: auto;
+    }
+
+    .sobrepor_image {
+        position: initial;
+        width: 100px;
+        margin: auto;
+    }
+
+    .sobrepor {
+        position: initial;
+        text-align: center;
+        color: white;
+        text-shadow: 1px 1px 10px black;
+    }
+
+    
+
+    .navega_dois {
+        border-bottom: 2px rgba(0, 0, 0, 0.171) solid;
+        text-align: center;
+        padding: 10px 0px;
+    }
+
+    .flex_bottom{
+        color: white;
+        background-color: gray;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 50px 0px;
+    }
+
+    .menu_mobi{
+        margin: auto;
+        display: block;
+    }
+}
